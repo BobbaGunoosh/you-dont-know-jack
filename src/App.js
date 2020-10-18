@@ -6,7 +6,6 @@ function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
-  const [game, setGame] = useState('')
 
   const refreshGame = () => {
 	  window.location.reload()
